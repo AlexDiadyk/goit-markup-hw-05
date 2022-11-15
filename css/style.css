@@ -909,12 +909,12 @@ text-align: start;
       box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
   }
 
-  .galerry-card-thumb {
+  .portfolio-card {
     position: relative;
     overflow: hidden;
   }
 
-  .galerry-card-info {
+  .portfolio-info {
     position: absolute;
     top: 0;
     left: 0;
@@ -925,15 +925,14 @@ text-align: start;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .galerry-card-thumb:hover .galerry-card-info,
-  .galerry-card-thumb:focus .galerry-card-info {
+  .portfolio-card:hover .portfolio-info,
+  .portfolio-card:focus .portfolio-info {
     transform: translateY(0);
   }
   
-  .galerry-card-info-text {
+  .portfolio-galerry-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;
-  
-    color: var(--primary-bg-color);
+    color: var(--main-background-color);
   }
