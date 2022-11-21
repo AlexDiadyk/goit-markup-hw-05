@@ -109,7 +109,9 @@ background: var(--main-background-color);
 .contacts .link:focus,
 .contacts .link:hover,
 .footer-list .link:focus,
-.footer-list .link:hover
+.footer-list .link:hover,
+.header-icon-link:focus,
+.header-icon-link:hover
 {
 color:var(--accent);
 fill:var(--accent);
@@ -128,8 +130,6 @@ height: 4px;
 background-color: var(--accent);
 border-radius: 2px;
 }
-
-
 
 .nav-studio {
 position: relative;
@@ -211,6 +211,8 @@ fill: var(--text-color-gray);
   width: 16px;
   height: 12px;
 }
+
+
 
 
 /* основний зміст */
@@ -331,10 +333,7 @@ pointer-events: none;
 }
 
 .close {
-  position: relative;
   fill: #000000;
-  justify-content: center;
-
 }
 
 .close-button:hover,
