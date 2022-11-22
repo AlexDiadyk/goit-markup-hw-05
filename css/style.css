@@ -345,7 +345,7 @@ pointer-events: none;
   border-radius: 50%;
   color: var(--third-color-background);
   cursor: pointer;
-  transition-property: color;
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -636,6 +636,7 @@ color: var(--text-color-gray);
   height: 44px;
   border-radius: 50%;
   fill: var(--icons-color);
+  transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -714,6 +715,7 @@ border: 1px solid var(--border-partners-company);
 border-radius: 4px;
 justify-content: center;
 align-items: center;
+transition-property: border, color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -896,6 +898,7 @@ font-size: 16px;
 line-height: 1.62;
 font-family: 'Roboto';
 background: #F5F4FA;
+transition-property: color, background-color, box-shadow;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -934,6 +937,8 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 text-align: start;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .gallery-item:hover,
