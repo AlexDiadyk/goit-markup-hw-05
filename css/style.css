@@ -9,9 +9,6 @@
 --third-color-background: #F5F4FA;
 --portfolio-item-bg: #EEEEEE;
 --border-partners-company: #AFB1B8;
---transition-duration: 250ms;
---transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
---transparent-color: rgba(0, 0, 0, 0);
 }
 
 /* html {
@@ -291,6 +288,7 @@ line-height: 1.88;
 /* identical to box height, or 188% */
 border-radius: 4px solid transparent;
 min-width: 200px;
+letter-spacing: 0.06em;
 text-align: center;
 cursor: pointer;
 color: var(--text-color-white);
@@ -641,6 +639,9 @@ color: var(--text-color-gray);
   width: 206px;
   height: 44px;
   padding: 0;
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social {
@@ -649,7 +650,7 @@ color: var(--text-color-gray);
   height: 44px;
   border-radius: 50%;
   fill: var(--icons-color);
-  transition-property: color, background-color;
+  transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -680,6 +681,7 @@ margin-right: 0px;
 display: inline-block;
 fill: #AFB1B8;
 }
+
 
 .social-links .link:hover > .link-icon,
 .social-links .link:focus > .link-icon {
@@ -724,11 +726,12 @@ display: flex;
 display: flex;
 width: 170px;
 height: 92px;
-border: 1px solid var(--border-partners-company);
+border: 1px solid #afb1b8;
 border-radius: 4px;
 justify-content: center;
 align-items: center;
-transition-property: border, color;
+fill: #afb1b8;
+transition-property: fill, border-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -808,7 +811,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--text-color-gray);
+color: rgba(255, 255, 255, 0.6);
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -822,7 +825,7 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 margin-bottom: 0px;
-color: var(--text-color-gray);
+color: rgba(255, 255, 255, 0.6);
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
