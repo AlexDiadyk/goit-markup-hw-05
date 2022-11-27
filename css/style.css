@@ -731,9 +731,6 @@ border-radius: 4px;
 justify-content: center;
 align-items: center;
 fill: #afb1b8;
-transition-property: fill, border-color;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .partners-logo{
@@ -741,6 +738,9 @@ display: block;
 fill: var(--border-partners-company);
 Width: 106px;
 Height: 60px;
+transition-property: fill, border-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .partners-link:hover,
