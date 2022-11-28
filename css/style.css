@@ -1083,9 +1083,9 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-  .portfolio-card:hover .portfolio-info,
-  .portfolio-card:focus .portfolio-info {
-transform: translateY(0);
+.portfolio-elements:hover .portfolio-info,
+.portfolio-elements:focus .portfolio-info {
+  transform: translateY(0);
 }
   
   .portfolio-galerry-text {
