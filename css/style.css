@@ -217,6 +217,9 @@ color: var(--text-color-gray);
 margin-right: 10px;
 vertical-align: middle;
 fill: var(--text-color-gray);
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .item-icon.phone{
@@ -510,11 +513,14 @@ background: url(creative-artist-web-design-with-working-colour-selection-graphic
 }
 
 .label-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  margin: 0;
+
   bottom: 0;
   width: 100%;
-  padding: 27px 107px;
+  padding: 27px 0px;
   text-align: center;
   /* padding: 32px 64px;*/
   /* opacity: 0; */
@@ -528,7 +534,6 @@ background: url(creative-artist-web-design-with-working-colour-selection-graphic
 .label-text {
 margin: 0;
 bottom: 0;
-text-align: center;
 text-transform: uppercase;
 color: var(--text-color-white)
 
@@ -656,7 +661,11 @@ color: var(--text-color-gray);
 }
 .social .link-icon {
   margin: 12px;
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .social-links .link {
 display: flex;
@@ -731,6 +740,9 @@ border-radius: 4px;
 justify-content: center;
 align-items: center;
 fill: #afb1b8;
+transition-property: fill, border;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .partners-logo{
